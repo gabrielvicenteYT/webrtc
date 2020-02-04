@@ -1,5 +1,5 @@
 //Redirect
-window.location.replace(google.com)
+window.location.replace(//google.com)
 // Generate random room name if needed
 if (!location.hash) {
   location.hash = Math.floor(Math.random() * 0xFFFFFF).toString(16);
